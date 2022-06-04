@@ -1,0 +1,34 @@
+crntDate="$(date +%d)/$(date +%m)/$(date +%Y)";
+	export $crntDate;
+	Age=(diff=($crntDate-$DOB));
+		export $ageNum;
+	wAgeNum=(sum=($Age+115));
+		export $wAgeNum;
+	Age=($ageNum +%d/+%m/+%Y)
+		export $Age;
+	wAge=($ageNum +%d/+%m/+%Y);
+		export $wAge;
+
+	echo "Oh, damn you're-";
+		read -n 1 -s -r -p
+		"Press any key to continue";
+		
+	echo "[ panics in robot ]";
+		read -n 1 -s -r -p
+		"Press any key to continue";
+		
+	echo "Looking great for your- obviously not oldness.";
+		read -n 1 -s -r -p
+		"Press any key to continue";
+		
+	echo "I know what you're thinking, I know I don't have eyes, but I don't need them to know you're beautiful and definitely not ancient or anything.";
+		read -n 1 -s -r -p
+		"Press any key to continue";
+		
+	echo "You're only $wAge.";
+		read -n 1 -s -r -p
+		"Press any key to continue";
+		
+	echo "Shit- I mean $Age.";
+		read -n 1 -s -r -p
+		"Press any key to continue";

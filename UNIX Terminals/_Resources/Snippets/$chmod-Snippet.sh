@@ -1,0 +1,1 @@
+chmod u=rwx,g=rx,o=r
